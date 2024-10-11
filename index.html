@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./index.js"></script>
+  <title>Blue Velvet Brunch Bar</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#main">
+        <img id="logo-header" src="./assets/images/LOGO_BV.png" alt="Logo Blue Velvet">
+      </a>
+    </div>
+
+    <ul class="menu-header">
+      <li class="menu-header__list-item link-about">
+        <a href="#about">À PROPOS</a>
+      </li>
+      <li class="menu-header__list-item link-carte">
+        <a href="#carte">CARTE</a>
+      </li>
+      <li class="menu-header__list-item link-contact">
+        <a href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="main" id="main">
+    <h1>
+      All day
+      <br>
+      Brunch Bar
+    </h1>
+  </div>
+
+  <section class="about" id="about">
+    <img src="./assets/images/coucou.png" alt="">
+    <div class="about-text">
+      <h1>
+        À Propos
+      </h1>
+      <p>
+        Sept ans après notre première rencontre, nous considérons notre relation fusionnelle comme une chance et c’est avec une réelle envie de créer ensemble qu’a commencé à voir le jour le projet de notre vie.
+        <br>
+        <br>
+        En tant que grandes amatrices de brunch et clientes fidèles des bars bordelais, nous avons fait le pari de réunir en un seul et même lieu la gourmandise et l’ambiance, c’est ainsi qu’est née l’idée de Blue Velvet.
+        <br>
+        <br>
+        Le Blue Velvet est le premier Brunch Bar de Bordeaux. On s’y rend pour son “All day brunch” street-food, on s’y installe avec son ordinateur pour travailler en wifi gratuit et on y retourne pour prendre un verre entre amis le tout dans une ambiance singulière.
+        <br>
+        <br>
+        Notre mission principale est de transporter chacun d’entre vous dans notre univers. Nous feriez-vous ce plaisir ?
+      </p>
+    </div>
+    <div class="photos">
+      <!-- photos -->
+    </div>
+  </section>
+
+  <section class="carte" id="carte">
+      <h1>CARTE</h1>
+  </section>
+
+  <!-- Modale -->
+  <div id="menuModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="pdf-images">
+        <img id="pdfImage" src="./assets/carte/Menu-page-1.png" alt="Menu" />
+      </div>
+      <div class="navigation">
+        <button id="prevBtn" class="nav-btn" disabled>〈</button>
+        <button id="nextBtn" class="nav-btn">〉</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="reseau">
+    <div class="logo">
+      <img id="insta-logo" src="./assets/images/insta-logo.png" alt="">
+    </div>
+    <div class="instabox">
+      <!-- insta posts -->
+    </div>
+  </section>
+
+  <section class="img-friends">
+    <!-- image -->
+  </section>
+
+
+  <footer id="contact">
+    <img id="logo-footer" src="./assets/images/LOGO_BV.png" alt="Logo Blue Velvet">
+    <p>
+      Rue Saint James
+      <br>
+      BORDEAUX
+    </p>
+    <div class="liste-footer">
+      <ul class="menu-footer">
+        <li class="menu-footer__list-item">
+          <a href="#about">À PROPOS</a>
+        </li>
+        <li class="menu-footer__list-item">
+          <a href="#carte">CARTE</a>
+        </li>
+        <li class="menu-footer__list-item">
+          <a href="https://www.instagram.com/bluevelvet_bordeaux/" target="_blank">INSTAGRAM</a>
+        </li>
+      </ul>
+    </div>
+    <div class="liste-mentions">
+      <ul class="menu-footer"></ul>
+        <li class="menu-footer__list-item">Mention légales</li>
+        <li class="menu-footer__list-item">Politique de confidentialité</li>
+        <li class="menu-footer__list-item">Nous ne prenons pas de réservation</li>
+        <li class="menu-footer__list-item">©Blue Velvet - PierPanda</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
